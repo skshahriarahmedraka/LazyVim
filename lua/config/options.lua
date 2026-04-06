@@ -1,6 +1,10 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
+
+-- Set Catppuccin as the default colorscheme
+vim.g.colorscheme = "catppuccin"
+
 vim.opt.updatetime = 250 -- Try 250 or 100. 100 is very responsive, might be too frequent.
 
 -- Optional: Simplified auto-save (adjust events as needed)

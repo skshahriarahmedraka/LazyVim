@@ -6,6 +6,7 @@ return {
       "AstroNvim/astrocore",
       "leoluz/nvim-dap-go", -- Only add Go-specific adapter
       "rcarriga/nvim-dap-ui",
+      "nvim-neotest/nvim-nio",
       "theHamsta/nvim-dap-virtual-text",
     },
     config = function()

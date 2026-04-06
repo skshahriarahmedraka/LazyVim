@@ -35,7 +35,7 @@ return {
         operators = {},
       },
       color_overrides = {},
-      custom_highlights = {},
+      highlight_overrides = {},
       integrations = {
         cmp = true,
         gitsigns = true,
@@ -49,8 +49,5 @@ return {
         -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
       },
     })
-
-    -- Setup the colorscheme here
-    vim.cmd.colorscheme "catppuccin"
   end,
 }
