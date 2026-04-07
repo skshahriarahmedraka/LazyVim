@@ -1,3 +1,7 @@
+-- gopher.nvim is disabled because LazyVim Go extras already provides all Go functionality
+-- If you need specific gopher.nvim features, you can re-enable it
+if true then return {} end
+
 return {
   "olexsmir/gopher.nvim",
   ft = "go",

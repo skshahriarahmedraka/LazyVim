@@ -1,9 +1,8 @@
 return {
-  -- ── 🐛 DAP: Debug Adapter Protocol Configuration for AstroVim ──
+  -- ── 🐛 DAP: Debug Adapter Protocol Configuration for LazyVim ──
   {
     "mfussenegger/nvim-dap",
     dependencies = {
-      "AstroNvim/astrocore",
       "leoluz/nvim-dap-go", -- Only add Go-specific adapter
       "rcarriga/nvim-dap-ui",
       "nvim-neotest/nvim-nio",

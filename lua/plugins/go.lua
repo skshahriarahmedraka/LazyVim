@@ -1,4 +1,4 @@
-return {
+return {{
   "echasnovski/mini.icons",
   optional = true,
   opts = {
@@ -9,4 +9,9 @@ return {
       gotmpl = { glyph = "󰟓", hl = "MiniIconsGrey" },
     },
   },
+},
+{
+  "fredrikaverpil/neotest-golang",
+},
 }
+
